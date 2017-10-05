@@ -1,0 +1,32 @@
+{
+  "name": "my-bank-montior",
+  "description": "Web application to manage bank account.",
+  "authors": [
+    "Maaxow"
+  ],
+  "license": "GNU",
+  "keywords": [
+    "AngularJS",
+    "Bootstrap",
+    "Elasticsearch"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests",
+		"src/vendor"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-deferred-bootstrap": "^0.1.9",
+    "angular-material": "^1.1.1",
+    "angular-material-data-table": "^0.10.10",
+    "angular-ui-router": "^0.3.2",
+    "bootstrap": "boostrap#^3.3.7",
+    "chart.js": "^2.5.0",
+    "components-font-awesome": "^4.7.0",
+    "requirejs": "^2.3.2",
+    "elasticsearch": "^13.3.1"
+  }
+}

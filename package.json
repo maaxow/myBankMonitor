@@ -1,0 +1,12 @@
+{
+  "name": "myBankMonitor",
+  "version": "0.0.1",
+  "description": "Web application to manage bank account.",
+  "author": "Maaxow",
+  "dependencies": {},
+  "license": "GNU",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maaxow/myBankMonitor.git"
+  }
+}

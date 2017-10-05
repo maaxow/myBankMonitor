@@ -1,0 +1,5 @@
+{
+    "directory" : "src/vendor",
+		"proxy": "http://fr-proxy.groupinfra.com:3128",
+		"https-proxy": "http://fr-proxy.groupinfra.com:3128"
+}
