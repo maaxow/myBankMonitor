@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html>
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+	<title>My Bank Monitor</title>
+
+	<!-- CSS FILES -->
+	<link rel="stylesheet" href="vendor/angular-material/angular-material.min.css">
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendor/components-font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendor/angular-material-data-table/md-data-table.min.css">
+	<style>
+		html 					{ overflow-y:scroll; }
+	</style>
+
+	<!-- SCRIPTS -->
+	<script src="vendor/jquery/jquery.min.js"></script><!-- load angular -->
+	<script data-main="js/require.config.js" src="vendor/requirejs/require.js"></script><!-- load angular -->
+	<base href="/"/>
+</head>
+<body>
+	<div layout="column" layout-fill>
+		<bm:toolbar></bm:toolbar>
+		<!--Note: for scrollShrink to work, the toolbar must be a sibling of a md-content element, placed before it.-->
+		<md-content layout-padding layout-wrap>
+		<!-- <md-button class="md-raised md-primary" ui-sref="home" aria-label="home">Home</md-button> -->
+			<div ui-view></div>
+		</md-content>
+	</div>
+	<p></p>
+</body>
+</html>
